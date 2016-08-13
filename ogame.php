@@ -81,9 +81,9 @@ $overview = ogame_get_overview($session_token);
 
 if ($pos = strpos($overview, "flight attack")) {
 	sendEmail(
-		'OGAME ATTAQUE <attaque-ogame@thibaultmonteiro.fr>',
-		'124643@supinfo.com',
-		'Thibault',
+		'OGAME ATTAQUE <attaque-ogame@yourdomain.com>',
+		'yourmail@mail.com',
+		'Username',
 		'[OGAME] - ATTAQUE EN COURS',
 		'[OGAME] - ATTAQUE EN COURS',
 		'UNE ATTAQUE EST EN TRAIN D AVOIR LIEU !'
@@ -91,8 +91,8 @@ if ($pos = strpos($overview, "flight attack")) {
 } else {
 	sendEmail(
 		'SONDE <sonde-ogame@thibaultmonteiro.fr>',
-		'tmonte.sup@gmail.com',
-		'Thibault',
+		'yourmail@mail.com',
+		'Username',
 		'[OGAME] - SONDE OK',
 		'[OGAME] - SONDE OK',
 		'LA SONDE EST TOUJOURS EN LIGNE'
