@@ -2,6 +2,6 @@
 alert mail when attack
 
 This script send mail when your account is being attacked.
-Don't forget to install php-curl extention on your server and set a Cron.
+Don't forget to install php-curl extention on your server and set a Cron task.
 
 Have fun !
